@@ -136,6 +136,12 @@
 "variable.parameter"              = { fg = "orange",             modifiers = ["italic"]                     }
 
 
+"ui.explorer.file" = { fg = "foreground" }
+"ui.explorer.dir" = { fg = "cyan" }
+"ui.explorer.exe" = { fg = "foreground" }
+"ui.explorer.focus" = { modifiers = ["reversed"] }
+"ui.explorer.unfocus" = { bg = "secondary_highlight" }
+
 [palette]
 background        = "#282A36"
 black             = "#191A21"

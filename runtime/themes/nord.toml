@@ -146,6 +146,23 @@
 "markup.link.text" = "nord8"
 "markup.raw" = "nord7"
 
+"ui.explorer.file" = { fg = "nord6" }
+"ui.explorer.dir" = { fg = "nord8" }
+"ui.explorer.exe" = { fg = "nord6" }
+"ui.explorer.focus" = { modifiers = ["reversed"] }
+"ui.explorer.unfocus" = { bg = "nord2" }
+
+ # lsp diagnostics
+ "diagnostic.error" = { underline = { color = "nord11", style = "curl" } }
+ "diagnostic.warning" = { underline = { color = "nord13", style = "curl" } }
+ "diagnostic.info" = { underline = { color = "nord8", style = "curl" } }
+ "diagnostic.hint" = { underline = { color = "nord8", style = "curl" } }
+ 
+ # vcs
+ "diff.plus" = "nord14"
+ "diff.delta" = "nord12"
+ "diff.minus" = "nord11"
+ 
 [palette]
 # Polar Night is made up of four darker colors that are commonly used for base elements like backgrounds or text color in bright ambiance designs.
 #

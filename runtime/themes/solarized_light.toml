@@ -127,6 +127,12 @@
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
 
+"ui.explorer.file" = { fg = "base1" }
+"ui.explorer.dir" = { fg = "blue" }
+"ui.explorer.exe" = { fg = "base1" }
+"ui.explorer.focus" = { modifiers = ["reversed"] }
+"ui.explorer.unfocus" = { bg = "base0175" }
+
 [palette]
 red      = '#dc322f'
 green    = '#859900'

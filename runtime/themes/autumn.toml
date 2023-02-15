@@ -82,6 +82,12 @@
 "variable.other.member" = "my_brown"
 "warning" = "my_yellow2"
 
+"ui.explorer.file" = { fg = "my_white" }
+"ui.explorer.dir" = { fg = "my_yellow1" }
+"ui.explorer.exe" = { fg = "my_green" }
+"ui.explorer.focus" = { modifiers = ["reversed"] }
+"ui.explorer.unfocus" = { modifiers = ["reversed"] }
+
 [palette]
 my_black      = "#212121" # Cursorline
 my_brown      = "#cfba8b" # Member variables, Quotes

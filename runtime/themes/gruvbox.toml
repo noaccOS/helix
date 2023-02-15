@@ -120,6 +120,12 @@
 "variable.parameter" = { fg = "blue1", modifiers = ["italic"] }
 
 
+"ui.explorer.file" = { fg = "fg1" }
+"ui.explorer.dir" = { fg = "blue0" }
+"ui.explorer.exe" = { fg = "fg1" }
+"ui.explorer.focus" = { modifiers = ["reversed"] }
+"ui.explorer.unfocus" = { bg = "bg3" }
+
 [palette]
 bg0 = "#282828"   # main background
 bg0_s = "#32302f"

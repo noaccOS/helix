@@ -641,7 +641,7 @@ impl Explorer {
             _ => return EventResult::Ignored(None),
         };
         match event.into() {
-            key!(Tab) | key!(Down) | ctrl!('j') => {
+            key!(Tab) | key!(Down) | ctrl!('t') => {
                 let filter = self.state.filter.clone();
                 return self
                     .tree
@@ -835,13 +835,13 @@ impl Component for Explorer {
         match key_event.into() {
             key!(Esc) => self.unfocus(),
             key!('q') => self.close(),
-            key!('n') => {
+            key!('k') => {
                 if let Some(mut repeat_motion) = self.repeat_motion.take() {
                     repeat_motion(self, PromptAction::Search { search_next: true }, cx);
                     self.repeat_motion = Some(repeat_motion);
                 }
             }
-            shift!('N') => {
+            shift!('K') => {
                 if let Some(mut repeat_motion) = self.repeat_motion.take() {
                     repeat_motion(self, PromptAction::Search { search_next: false }, cx);
                     self.repeat_motion = Some(repeat_motion);
